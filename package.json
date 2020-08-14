@@ -1,0 +1,42 @@
+{
+  "name": "yonui-mdf-comp-factory",
+  "version": "0.0.1",
+  "description": "使用yonui-cli开发组件时，帮助控件自动生成api、模型 ",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.4.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.0",
+    "file-loader": "^5.1.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "post-loader": "^2.0.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "author": "fed",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-react": "^7.10.4"
+  }
+}
